@@ -29,7 +29,7 @@ class InviteCreated extends Mailable
      */
     public function build()
     {
-        return $this->from('you@example.com')
+        return $this->from('no-reply@kacilla.com')
                 ->view('emails.invite');
     }
 }
