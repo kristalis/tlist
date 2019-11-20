@@ -43,3 +43,4 @@ Route::get('/password/reset/{token}', 'Auth\AdminResetPasswordController@showRes
 Route::resource ('/lists', 'TasklistController'); 
 Route::resource ('/dioceses', 'DioceseController'); 
 Route::resource ('/branches', 'BranchController'); 
+Route::resource ('/branchs', 'BranchController'); 
